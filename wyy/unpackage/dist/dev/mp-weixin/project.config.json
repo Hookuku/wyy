@@ -1,0 +1,53 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx1da9bff365789621",
+  "projectname": "wyy",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 2,
+      "list": [
+        {
+          "name": "list",
+          "query": "listId=3",
+          "id": 0,
+          "pathName": "pages/list/list"
+        },
+        {
+          "name": "detail",
+          "query": "songId=1859245776",
+          "id": 1,
+          "pathName": "pages/detail/detail"
+        },
+        {
+          "id": 2,
+          "name": "pages/detail/detail",
+          "pathName": "pages/detail/detail",
+          "query": ""
+        }
+      ]
+    }
+  }
+}
